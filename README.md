@@ -1,17 +1,6 @@
 
 Este projeto tem como objetivo implementar um sistema de governança para um fundo de investimento em criptoativos, permitindo que os participantes votem em tokens para decidir quais ativos serão incluídos no portfólio. A votação utiliza o método STV (Single Transferable Vote), o que garante uma distribuição mais justa dos votos entre os candidatos. O projeto também inclui a geração de relatórios de votação e a atualização automática de um site Google com os resultados.
 
-app/
-├── credentials.json # Credenciais de acesso ao Google Sheets API
-├── scripts/
-│ ├── processamento_votacao.gs # Script para processar a votação e aplicar o método STV
-│ ├── relatorio_votacao.gs # Script para gerar o relatório de votos
-│ ├── atualizar_google_site.gs # Script para atualizar o Google Sites com os resultados da votação
-├── site/
-│ └── index.html # Página HTML para o formulário de votação
-└── google_colab/
- └── colab_votacao.ipynb # Script Python para manipular o Google Sheets a partir do Google Colab
-
 Pré-requisitos
 
 1. Credenciais do Google Cloud
